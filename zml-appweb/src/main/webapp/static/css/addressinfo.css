@@ -1,0 +1,60 @@
+.oi_userinfo {
+	margin: 5px;
+}
+
+.oi_userinfo li{
+	background-color: #fff;
+	margin-bottom: 5px;
+	height: 120px;
+}
+
+.oi_userinfo p {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.oi_userinfo p:first-child{
+	height: 30px;
+}
+
+.oi_userinfo p:first-child>span:first-child{
+	float: left;
+	margin-left: 22px;
+}
+
+.oi_userinfo p:first-child>span:nth-child(2){
+	float: right;
+}
+
+.oi_userinfo li div{
+	float: left;
+	height: 40px;
+	background-color: #fff;
+	padding-top: 10px;
+	width: 50%;
+	border-top: 1px dotted #67B168;
+}
+.mui-checkbox.mui-left label, .mui-radio.mui-left label {
+    padding-right: 15px;
+    padding-left: 35px;
+}
+
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio] {
+    left: 5px;
+    top: 10px;
+}
+
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+    font-family: Muiicons;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    color: #aaa;
+    border-radius: 0;
+    background: 0 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mui-input-row label {
+    padding: 5px 15px;
+}

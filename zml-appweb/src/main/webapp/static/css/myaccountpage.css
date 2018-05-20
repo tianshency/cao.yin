@@ -1,0 +1,94 @@
+.headerImg {
+	width: 100%;
+	height: 35%;
+	background-color: #ad0c0c;
+	position: relative;
+	overflow: hidden;
+}
+
+.headerImg .img_div {
+	width: 100%;
+	z-index: 100;
+	position: relative;
+	left: 2%;
+	bottom: 10px;
+}
+
+.headerImg .img_div img {
+	margin-top: 15%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	width: 100px;
+	height: 100px;
+}
+
+.headerImg .img_div span {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.headerImg .class_cover {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 5px;
+	background-color: rgba(0, 0, 0, 0.36);
+	color: #FFFFFF;
+	font-size: 26px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.account_total{
+	width: 100%;
+	height: 50px;
+    padding: 5px 5px;
+    background: #6b1e06;
+    margin-top: 1px;
+}
+.account_total p{
+	width: 33%;
+	float: left;
+	text-align: -webkit-center;
+    font-size: 12px;
+}
+.account_total p:nth-child(2),p:nth-child(3){
+	border-left: solid 1px #fff;
+}
+.account_total p span{
+	display: block;
+	width: 100%;
+	color: #fff;
+}
+
+.mui-content>.mui-table-view:first-child {
+	margin-top: 0px;
+}
+
+.mui-table-view .mui-media-object {
+	line-height: 30px;
+	max-width: 30px;
+	height: 30px;
+}
+
+.mui-table-view .mui-media-object.mui-pull-left {
+	margin-right: 15px;
+}
+
+.btn_div{
+	width: 100%;
+	bottom: 40%;
+	position: fixed;
+	text-align: -webkit-center;
+}
+
+.btn_div button {
+    border: solid 1px;
+    border-color: #df2c37;
+    border-radius: 3px;
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+    color: #df2c37;
+}

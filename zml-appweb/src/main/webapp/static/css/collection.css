@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+body {
+    font-family: "微软雅黑",Microsoft YaHei;
+}
+li {
+    list-style: none;
+}
+.release-List {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑",Microsoft YaHei;
+}
+
+#Collection .release-List-li {
+    border-bottom: none;
+    background: #fff;
+}
+
+#Collection .release-List-main {
+    border-top: none;
+    position: relative;
+    height: 240px;
+    border-bottom: 1px solid #ebedee;
+    padding: 40px 30px;
+}
+.release-List-img {
+    width: 210px;
+    height: 100%;
+}
+#Collection .release-List-text {
+    padding-right: 30px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-left: 270px;
+}
+
+#Collection .release-text-top {
+    height: 70px;
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 34px;
+    color: #333;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+}
+
+#Collection .release-text-middle, #Collection .release-text-btm {
+    line-height: 42px;
+}
+.release-List-text>.release-text-middle, .release-List-text>.release-text-btm {
+    line-height: 36px;
+    padding-right: 30px;
+}
+.release-List-text>p {
+    font-size: 26px;
+    margin: 0;
+    color: #a0a0a0;
+}
+
+#Collection .release-state {
+    color: #a3a3a3;
+}
+#Collection .release-time {
+    float: right;
+    width: 64px;
+    height: 34px;
+    line-height: 34px;
+    border: 2px solid #a9a9a9;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 4px;
+    display: none;
+}
+#Collection .release-text-middle, #Collection .release-text-btm {
+    line-height: 42px;
+}
+#Collection .collection-price {
+    color: #ff6317;
+    font-size: 28px;
+}
+
+img{
+	width:100px;
+	heigth:100px;
+}
+

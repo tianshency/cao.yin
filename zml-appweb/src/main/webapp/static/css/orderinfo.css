@@ -1,0 +1,349 @@
+.oi_order{
+	background: #F5F5F5;
+	overflow: hidden;
+}
+.oi_order ul {
+    overflow: hidden;
+}
+
+.oi_order ul li {
+    overflow: hidden;
+   margin-bottom: 20px;
+    background: #ffffff;
+}
+.oi_order ul li>a{
+	display:block;
+}
+.oi_order .order_title {
+	height: 80px;
+    line-height: 80px; 
+    border-bottom: 1px solid #F5F5F5;
+    padding: 0 30px;
+}
+
+.oi_order .order_title div {
+    float: left;
+	height: 60px;
+	margin-top: 10px;
+}
+.oi_order .order_title  img {
+    width: 60px;
+    height: auto;
+    float: left;
+}
+.oi_order .order_title  span {
+	display: inline-block;
+   	height: 60px;
+   	line-height: 60px;
+    color: #00bb9c;
+    font-size: 28px;
+    float: left;
+    margin-left: 20px;
+}
+
+.oi_order .order_title em {
+    float: right;
+    font-size: 26px;
+    font-style: normal;
+    color: rgba(249, 15, 15, 0.98);
+}
+
+.order_main {
+	padding: 30px;
+	position: relative;
+}
+
+.order_main .bl_radio{
+	float: left;
+    margin: 10px;
+}
+.order_main .bl_img {
+	width: 200px;
+	height: 200px;
+}
+.order_main .bl_img>img{
+	width: 100%;
+	height: 100%;
+}
+.order_main .bl_right {
+   	position: absolute;
+   	top: 40px;
+   	left: 0;
+   	padding-left: 250px;
+}
+.order_main .bl_title {
+    font-size: 26px;
+    line-height: 34px;
+    color: #333;
+    padding-right: 30px;
+}
+.order_main .bl_note {
+    font-size: 12px;
+    color: #FF3300;
+    margin-top: 5px;
+}
+.order_main .bl_tag {
+    float: left;
+    font-size: 12px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 36px;
+}
+.order_main .bl_right .bl_tag .bl_price {
+    font-size: 28px;
+    color: #FF3300;
+    height: 40px;
+}
+.order_main .bl_right .bl_tag .bl_price b{
+	display: inline-block;
+	margin-right: 30px;
+	float: right;
+	font-size: 24px;
+	font-weight: normal;
+}
+.order_main .bl_right .bl_tag .bl_number p{
+	font-size: 24px;
+}
+
+.order_del{
+	height: 60px;
+	border-top: 1px solid #F5F5F5;
+}
+.order_del button{
+	width: 130px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.order_del a{
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #36a21b;
+	float: right;
+	border: 1px solid #36a21b;
+	margin-right: 20px;
+}
+.order_del a:hover{
+	background: #36a21b;
+	color: #fff;
+}
+.order_del button .mui-icon{
+	font-size: 32px;
+}
+.oi_order .order-cancel .order_title em,
+.order-cancel .order_main .bl_title,
+.order-cancel .order_main .bl_right .bl_tag .bl_price{
+	color: #8f8f94;
+}
+.oi_order .order-reserve .order_title em{
+	color: #36a21b;
+}
+
+
+
+/*订单详情*/
+.orderDetail-time,
+.orderDetail-tel{
+	background: #fff;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+}
+.orderDetail-time>p,
+.orderDetail-tel>p{
+	height: 44px;
+	line-height: 44px;
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+.orderDetail-tel .mui-icon{
+	font-size: 32px;
+}
+.orderDetail-tel b{
+	font-weight: normal;
+}
+.orderDetail-payment{
+	background: #fff;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+.oi_order .orderDetail-li{
+	margin-bottom: 10px;
+}
+.orderDetail-payment>h2{
+	height: 60px;
+	line-height: 60px;
+	margin: 0;
+	padding-left: 30px;
+	font-size: 28px;
+	color: #333;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.orderDetail-btn>button{
+	width: 28%;
+	height: 50px;
+	font-size: 26px;
+	margin-left: 4%;
+	padding: 0;
+	border-color: #36a21b;
+}
+.orderDetail-price{
+	background: #fff;
+	padding:20px 0;
+}
+.orderDetail-price>p{
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	font-size: 26px;
+	padding: 0 30px;
+}
+.orderDetail-price>p>span:last-child{
+	float: right;
+}
+
+
+
+
+
+
+/**
+ * 支付样式设置
+ */
+.pay_class{
+	clear: both;
+	width: 100%;
+	margin-top: 2px;
+	background: #fff;
+	overflow: hidden;
+	
+}
+
+.pay_class .title{
+	height: 30px;
+	line-height: 30px;
+}
+.pay_class .tools{
+	overflow:hidden;
+	text-align: -webkit-center;
+	padding-bottom: 10px;
+}
+.pay_class .tools button{
+	width: 31%;	
+}
+
+/**
+ * 商品价格
+ */
+.fee_class{
+	clear: both;
+	width: 100%;
+	margin-top: -14px;
+	background: #fff;
+	overflow: auto;
+	margin-bottom: 45px;
+}
+
+.fee_class p{
+	width: 100%;
+	padding: 10px;
+	
+}
+.fee_class p span{
+	width: 50%;
+}
+.fee_class p>span:first-child{
+	float: left;
+}
+.fee_class p>span:nth-child(2){
+	float: right;
+	text-align: -webkit-right;
+}
+
+/**
+ * 立即下单按钮
+ */
+
+/*     结算信息     */
+
+.settlement {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 99;
+    bottom: 0px;
+    left: 0px;
+    background-color: #FFF;
+    border-top:1px solid #b3b3b3;
+}
+.settlement_left {
+    width: 50%;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    float: left;
+    font-size: 28px;
+    color: #FF3300;
+    padding-left: 30px;
+}
+.settlement_left .zongji {
+    margin-left: 10px;
+    color: #FF3300;
+}
+
+.settlement_left .money {
+    font-size: 28px;
+    color: #FF3300;
+}
+
+
+.settlement_right {
+    width: 50%;
+    height: 90px;
+    line-height: 90px;    
+    overflow: hidden;
+    float: right;
+}
+.settlement_right button{
+	width: 50%;
+	float: left;
+	height: 90px;
+	padding: 0;
+	font-size: 28px;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	color: #fff;
+}
+.settlement_right button:first-child{
+	background: #ceb923;
+}
+.settlement_right button:last-child{
+	background: #36a21b;
+}
+.settlement .settlement_right input {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 28px;
+    float: right;
+    border:none;
+    background-color: #2abf52;
+    color: #FFF;
+    padding: 0;
+}
+
+.mui-btn, button, input[type=button], input[type=reset], input[type=submit] {
+    padding: 6px 3px;
+}

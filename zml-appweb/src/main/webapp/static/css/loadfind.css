@@ -1,0 +1,22 @@
+.mui-card .mui-table-view .mui-table-view-cell:last-child, .mui-card .mui-table-view .mui-table-view-divider:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom: 1px solid #a2cc3c;
+}
+.mui-table-view-cell.mui-active {
+    background-color: #ea7575;
+}
+
+.load_img{
+	width:30%;
+	float: left;
+}
+
+.load_img img{
+	height: 60px;
+    border-radius: 30px;
+}
+.load_person{
+	width:70%;
+	float: right;
+}

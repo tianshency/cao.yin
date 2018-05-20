@@ -1,0 +1,252 @@
+/* 设置选项卡颜色 */
+.header_car{
+	position: fixed;
+	height: 51px;
+	top:0;
+}
+
+.mui-segmented-control .mui-control-item.mui-active {
+    color: #fff;
+    background-color: #e3a795;
+}
+
+.mui-segmented-control {
+    border: 1px solid rgba(216, 146, 114, 0.85);
+}
+
+.mui-segmented-control .mui-control-item {
+    border-left: 1px solid #f3a667;
+    background-color: #efeff4;
+}
+
+.mui-segmented-control .mui-control-item {
+    color: #121213;
+}
+
+.gc_goodscar {
+	/*margin-top: 51px;
+	margin-bottom: 50px;*/
+	position: absolute;
+    bottom: 40px;
+    top:0px;
+}
+
+.gc_goodscar .goodscar_list {
+    float: left;
+}
+
+.gc_goodscar ul {
+    overflow: hidden;
+}
+
+.gc_goodscar ul li {
+    overflow: hidden;
+    margin: 10px 0px;
+    background: #ffffff;
+}
+.gc_goodscar .goodscar_title {
+    line-height: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F9F9F9;
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+.gc_goodscar .goodscar_title div {
+    float: left;
+    margin-left: 10px;
+}
+.gc_goodscar .goodscar_title  img {
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+.gc_goodscar .goodscar_title  span {
+    margin-left: 10px;
+    color: #00bb9c;
+    font-size: 16px;
+    float: left;
+}
+
+.gc_goodscar .goodscar_title em {
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: normal;
+    color: #666666;
+}
+
+.goodscar_main {
+    float: left;
+    /*width: 100%;*/
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F2F2F2;
+    margin-top: 15px;
+}
+.goodscar_main>div {
+	clear: both;
+	width: 100%;
+}
+.goodscar_main .bl_radio{
+	float: left;
+    margin: 10px;
+}
+.goodscar_main .bl_img {
+    float: left;
+    margin: 5px;
+    width: 20%;
+}
+.goodscar_main .bl_right {
+    float: left;
+    margin-left: 6px;
+    width: 63%;
+}
+.goodscar_main .bl_title {
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: normal;
+    width: 100%;
+}
+.goodscar_main .bl_note {
+    float: left;
+    font-size: 12px;
+    line-height: normal;
+    color: #FF3300;
+    margin-top: 5px;
+    width: 100%;
+}
+.goodscar_main .bl_tag {
+    float: left;
+    font-size: 12px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.goodscar_main .bl_right .bl_tag .bl_price {
+    float: left;
+    font-size: 12px;
+    color: #FF3300;
+    width: 100%;
+}
+
+.goodscar_main .bl_right .bl_tag .bl_number{
+	float: left;
+    font-size: 12px;
+    color: #dd524d;
+    width: 96%;
+    margin-right: 10px;
+}
+
+.goodscar_main .bl_right .bl_tag .bl_number .del {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+.goodscar_main .bl_right .bl_tag .bl_number input {
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    border: 1px solid #b6b6b6;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.goodscar_main .bl_right .bl_tag .bl_number .add {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*     结算信息     */
+
+.settlement {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 99;
+    bottom: 0px;
+    left: 0px;
+    background-color: #FFF;
+}
+
+
+.settlement_left {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    color: #9b9b9c;
+    padding-left: 10px;
+    background-color: #efeff4;
+}
+
+.settlement_middle{
+    width: 40%;
+    height: 50px;
+    line-height: 20px;
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    color: #9b9b9c;
+    padding: 5px 0px;
+    background-color: #efeff4;
+}
+
+
+.settlement_right {
+    width: 40%;
+    overflow: hidden;
+    float: right;
+}
+
+
+.settlement_left .zongji {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #030000;
+}
+
+
+.settlement_left .money {
+    font-size: 18px;
+    color: #bf392a;
+}
+
+
+.settlement_right input {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    float: right;
+    border: 0px;
+    background-color: #2abf52;
+    color: #FFF;
+}
+
+.modal {
+    top: 32%;
+    left: 33%;
+    width: 50%;
+    height: 20%;
+}
+
+

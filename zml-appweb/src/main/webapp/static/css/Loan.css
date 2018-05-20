@@ -1,0 +1,903 @@
+body{
+	font-family: "寰蒋闆呴粦","microsoft sans serif";
+}
+ul{
+	margin: 0;
+	padding: 0;	
+}
+li{
+	list-style: none;	
+}
+p{
+	margin: 0;
+}
+/*loan*/
+.loan-title>ul{
+	overflow: hidden;
+	padding: 20px 0 10px 0;
+	border-bottom: 2px solid #4e4eff;
+}
+.loan-title>ul>li{
+	width: 50%;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 9%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+}
+.loan-title>ul>li span{
+	color: #f00;
+}
+.loan-list{
+	padding: 0 20px;
+}
+.loan-list li>p{
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.loan-list-box{
+	background: #f2f2f2;
+	padding: 5px;
+}
+.loan-list-box>div{
+	height: 40px;
+}
+.loan-list-box>div>p{
+	height: 40px;
+	line-height: 40px;
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	color: #333;
+}
+.loan-list-box .loan-list-money>p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.loan-list-box .loan-state{
+	text-align: center;
+	color: #f00;
+}
+.loan-list-box .loan-state>a{
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #f00;	
+}
+.loan-list-time{
+	border-bottom: 1px dashed #000000;
+}
+/*Repayment*/
+.Repayment-header{
+	height: 40px;
+}
+.Repayment-header>a{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #444;
+}
+.Repayment-header>a>img{
+	height: 18px;
+	margin-top: 11px;
+	margin-left:20px;
+	vertical-align: top;
+}
+.Repayment-title ul{
+	overflow: hidden;
+	padding: 20px 12%;
+}
+.Repayment-title li{
+	width: 50%;
+	float: left;
+	height: 60px;
+}
+.Repayment-title li:nth-child(1),
+.Repayment-title li:nth-child(2){
+	margin-bottom: 20px;
+}
+.Repayment-title li:nth-child(1) span{
+	color: #32acf6;
+}
+.Repayment-title li>p{
+	height: 26px;
+	line-height: 26px;
+	font-size: 18px;
+	color: #333;
+}
+.Repayment-title li>span{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	font-size: 24px;
+	color: #000;
+}
+.Repayment-text{
+	padding: 0 30px;
+}
+.Repayment-text>p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.Repayment-text-main>p{
+	line-height: 30px;
+	font-size: 17px;
+	color: #666;
+}
+.Repayment-btn{
+	display: block;
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -40%;
+	height: 48px;
+	line-height: 48px;
+	width: 80%;
+	background: #6699ff;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #797979;
+	font-weight: bold;
+	
+}
+
+
+/*invoiceCompany*/
+.Invoice-body{
+	background: url(../img/paymentbg1.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;	
+}
+.invoiceCompany-content ul{
+	padding-top: 15px;
+}
+.invoiceCompany-content li{
+	height: 90px;
+	background: url(../img/paycompany.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.invoiceCompany-text{
+	display: inline-block;
+	margin: 0 auto;
+	height: 216px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.invoiceCompany-content li span{
+	display: inline-block;
+	width: 84px;
+	height: 90px;
+	line-height: 90px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #333;
+	text-align: left;
+}
+.invoiceCompany-section ul>li span{
+	width: 220px;	
+}
+.invoice-content ul>li span{
+	width: 180px;
+}
+.invoiceCompany-content li i{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+.Company-weixin{
+	background: url(../img/qiye.png) no-repeat;
+}
+.Company-zhifubao{
+	background: url(../img/zhifubao.png) no-repeat;
+}
+.Company-yinhang{
+	background: url(../img/yinhang.png) no-repeat;
+}
+.Company-geren{
+	background: url(../img/geren.png) no-repeat;
+}
+.Company-ion{
+	background: url(../img/company.png) no-repeat;	
+}
+.Personal-ion{
+	background: url(../img/personal-ion.png) no-repeat;	
+}
+.invoicePersonal,
+.invoicePersonal2{
+	padding: 0 68px;
+}
+.invoice-fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	/*padding-top: 110px;*/
+	display: none;	
+}
+.invoicePersonal-main,
+.invoicePersonal2-main{
+	height: 380px;
+	width: 350px;
+	background: url(../img/personal-bg.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding-top: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -175px;
+	margin-top: -190px;
+}
+.invoicePersonal-main>h2,
+.invoicePersonal2-main>h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 28px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.invoicePersonal-main>ul,
+.invoicePersonal2-main>ul{
+	width: 100%;
+	margin: 0 auto;
+}
+.invoicePersonal-main li,
+.invoicePersonal2-main li{
+	height: 46px;
+	line-height: 46px;
+	font-size: 17px;
+	color: #333;
+}
+.invoicePersonal-main li>span,
+.invoicePersonal2-main li>span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	float: left;
+}
+.invoicePersonal-main textarea,
+.invoicePersonal2-main textarea{
+	display: inline-block;
+	width:235px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 17px;
+	color: #333;	
+	border: none;	
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.invoicePersonal-main>i,
+.invoiceZhifubao-main>i,
+.invoiceWeixin-main>i,
+.invoiceCompany-zhifubao-main>i,
+.invoicePersonal2-main>i,
+.fixed-code-img>i{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/colse.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: -80px;
+}
+.invoiceZhifubao-main{
+	width: 350px;
+	height: 486px;
+	background: url(../img/personal-bg2.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -175px;
+	margin-top: -243px;	
+}
+.fixed-code-img{
+	width: 350px;
+	height: 486px;	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -175px;
+	margin-top: -243px;		
+}
+.fixed-code-img>img{
+	width: 100%;
+	height: 100%;
+}
+.invoiceWeixin-main{
+	width: 560px;
+	height: 778px;
+	background: url(../img/personal-bg3.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -389px;	
+}
+.invoiceCompany-zhifubao-main{
+	width: 560px;
+	height: 778px;
+	background: url(../img/company-bg2.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -389px;		
+}
+.invoiceZhifubao-main>textarea{
+	position: absolute;
+	bottom: 64px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	font-size: 18px;
+	border: none;
+	background: rgba(255, 255, 255, 0);
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+.invoice-href{
+	text-align: center;
+	margin-top: 50px;
+}
+.invoice-href>a{
+	display: inline-block;
+	width: 44%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 2px solid #4c447d;
+	color: #4c447d;	
+}
+.invoice-href>a:hover{
+	background: #4c447d;
+	color: #fff;	
+}
+.invoicePersonal-li1{
+	position: relative;
+}
+.invoicePersonal-li1>P{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+#preview{
+	text-align: center;
+	margin-top: 10px;
+    margin-bottom: 15px;
+}
+#preview>img{
+	width: 280px;
+	height: auto;
+	margin: 0!important;
+}
+.Invoice-loan-p{
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+.invoice-loan-prev{
+	float: right;
+	width: 80px;
+	text-align: right;
+	padding-right: 15px;
+	color: #007aff;
+    font-size: 18px;
+}
+.Invoice-loan-p>span{
+	color: #4c447d;
+}
+.Invoice-loan-p>input{
+	width: 130px;
+	padding: 0;
+	margin: 0;
+	height: 36px;
+	vertical-align: top;
+	margin-top: 7px;
+	padding-left: 7px;
+	font-size: 24px;
+	color: #f00;
+	border: 1px solid #4c447d;
+	background: rgba(255, 255, 255, 0);
+}
+.Invoice-loan-btn{
+	text-align: center;
+}
+.Invoice-loan-btn>.Invoice-loan-input{
+	width: 226px;
+    height: 54px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4c447d;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #4c447d;
+    padding: 0;
+    margin: 0;
+    font-family: "寰蒋闆呴粦","microsoft sans serif";
+}
+/*Sign.html*/
+.sign-back{
+	padding-left: 20px;
+    height: 41px;
+    width: 30%;
+}
+.sign-back>a{
+	display: inline-block;
+	width: 100%;
+	height: 41px;
+}
+.sign-back>a>img{
+	margin-top: 10px;
+}
+.sign-top>p{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #f00;
+	font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid #4e4eff;
+    margin-bottom: 20px;
+}
+.sign-top>ul{
+	padding-left: 20px;
+	overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.sign-top>ul>li{
+	width: 50%;
+	float: left;
+	height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #333;
+}
+.sign-btm{
+	padding: 20px;
+}
+.sign-btm>p{
+	height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 18px;
+}
+.sign-btm-text{
+	line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.sign-btm-a{
+	color: #f00;
+    margin-bottom: 20px;
+}
+.sign-btm-a>a{
+	text-decoration: underline;	
+	color: #f00;
+}
+.sign-form-checkbox>div>input{
+	width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+.sign-form-checkbox>div>label{
+	height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+.sign-form .sign-submit {
+    width: 100%;
+    height: 60px;
+    margin-top: 80px;
+    font-size: 28px;
+    color: #af2424;
+    /* border: none; */
+    padding: 0;
+    background: #f1d3a9;
+}
+/*WaitingLoan.html*/
+.WaitingLoan-text{
+	text-align: center;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+   	-webkit-box-shadow: 0px 0px 30px  #bfbebe;
+   	-moz-box-shadow: 0px 0px 30px  #bfbebe;
+   	box-shadow: 0px 0px 30px  #bfbebe;
+}
+.WaitingLoan-text>h3{
+    height: 80px;
+    line-height: 80px;
+    color: #f00;
+    margin: 0;
+    margin-top: 30px;
+}
+.WaitingLoan-text>p{
+	color: #333;
+	line-height: 26px;
+}
+.WaitingLoan-text>a{
+	font-size: 19px;
+	display: block;
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	color: #000;
+}
+.WaitingLoan-footer{
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+}
+.WaitingLoan-footer>a{
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	background: #007aff;
+	font-size: 26px;
+}
+/*ApplyPass.html*/
+.ApplyPass-main{
+	text-align: center;
+}
+.ApplyPass-main>img{
+	width: 180px;
+	height: 180px;
+	position: fixed;
+	top: 40%;
+	margin-top: -90px;
+	margin-left: -90px;
+	left: 50%;
+}
+.ApplyPass-main>div{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 100px;
+}
+.ApplyPass-main>div>h4{
+	font-size: 22px;
+	margin: 0;
+    height: 44px;
+    line-height: 44px;
+}
+.ApplyPass-main>div>span{
+	display: block;
+	padding: 0 40px;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+/*闀挎寜浜岀淮鐮�*/
+#weixin-code,
+#weixin-code>.fixed-code-img{
+	left: 50%!important;
+	top: 50%!important;
+	position: fixed;
+	width: 350px;
+	height: 412px;
+	margin-top: -206px;
+    margin-left: -175px;
+}
+#weixin-code>.fixed-code-img>img{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.Invoice-body>.mui-backdrop{
+	background-color: rgba(0,0,0,0.8);
+}
+@media only screen and (max-width:390px) {
+	.Invoice-loan-p {
+  	  height: 40px;
+  	  line-height: 40px;
+  	  font-size: 18px;
+  	  padding-left: 15px;
+  	  margin-top: 5px;
+	}	
+	.Invoice-loan-p>input{
+		height: 28px;
+		font-size: 18px;
+		margin-top: 5px;
+		padding-left: 5px;
+		width: 100px;
+	}
+	.invoice-loan-prev{
+		font-size: 16px;
+	}
+	#weixin-code,
+	#weixin-code>.fixed-code-img{
+	width: 280px;
+	height: 330px;
+	margin-top: -165px;
+    margin-left: -140px;
+	}
+	.loan-title>ul>li{
+		font-size: 14px;
+	}
+	.loan-list{
+		padding: 0 15px;
+	}
+	.loan-list li>p{
+		font-size: 13px;
+		margin-top: 10px;
+		height: 30px;
+    	line-height: 30px;		    
+	}
+	.loan-list-box>div>p{
+		height: 34px;
+    	line-height: 34px;
+    	font-size: 13px;
+	}
+	.loan-list-box>div {
+    	height: 34px;
+	}
+	.loan-list-box .loan-list-money>p,
+	.loan-list-box .loan-state>a{
+		font-size: 15px;
+	}
+	.Repayment-title li>p{
+		font-size: 14px;
+	}
+	.Repayment-title li>span{
+		font-size: 20px;
+	}
+	.Repayment-title li:nth-child(1), 
+	.Repayment-title li:nth-child(2){
+		margin-bottom: 10px;
+	}
+	.Repayment-text>p{
+		font-size: 15px;
+		margin-bottom: 12px;
+	}
+	.Repayment-text-main>p {
+    	line-height: 20px;
+    	font-size: 13px;
+	}
+	.Repayment-btn{
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	.invoiceCompany-content li{
+		margin-bottom: 0;
+		height: 76px;
+	}
+	.invoiceCompany-content li i{
+		height: 24px;
+    	width: 24px;
+    	margin-top: 26px;
+    	margin-right: 2px;
+	}
+	.invoiceCompany-content li span{
+		height: 76px;
+		line-height: 76px;
+		font-size: 18px;
+		width: 74px;
+	}
+	#preview>img{
+		width: 200px;
+	}
+	.Invoice-loan-btn>.Invoice-loan-input{
+		width: 164px;
+		height: 40px;
+		font-size: 18px;
+	}
+	.invoice-href>a{
+		height: 32px;
+    	line-height: 32px;
+    	font-size: 16px;
+	}
+	.invoiceZhifubao-main,
+	.fixed-code-img{
+		width: 280px;
+		height: 390px;
+		margin-left: -140px;
+		margin-top: -195px;
+	}
+	.invoiceZhifubao-main>textarea{
+		bottom: 51px;
+		font-size: 16px;
+	}
+	.invoicePersonal-main>i, 
+	.invoiceZhifubao-main>i, 
+	.invoiceWeixin-main>i, 
+	.invoiceCompany-zhifubao-main>i, 
+	.invoicePersonal2-main>i,
+	.fixed-code-img>i{
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
+    	bottom: -60px;
+	}
+	.invoicePersonal-main, 
+	.invoicePersonal2-main{
+		width: 280px;
+		margin-left: -140px;
+		height: 270px;
+		margin-top: -135px;
+		padding-top: 20px;
+	}
+	.invoicePersonal-main>h2, 
+	.invoicePersonal2-main>h2 {
+    	height: 30px;
+    	line-height: 30px;
+    	font-size: 22px;
+    	margin-bottom: 20px;
+	}
+	.invoicePersonal-main li, 
+	.invoicePersonal2-main li{
+		font-size: 14px;
+	}
+	.invoicePersonal-main li>span, 
+	.invoicePersonal2-main li>span{
+		width: 84px;
+	}
+	.invoicePersonal-main textarea, 
+	.invoicePersonal2-main textarea{
+		width: 185px;
+		font-size: 14px;
+	}
+/*Sign.html*/
+	.sign-back{
+		height: 32px;
+		padding-left: 15px;
+	}
+	.sign-back>a{
+		height: 32px;
+	}	
+	.sign-back>a>img {
+  	  	margin-top: 8px;
+  	  	height: 16px;
+	}
+	.sign-top>p{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.sign-top>ul {
+    	padding-left: 14px;
+	}
+	.sign-top>ul>li {
+    	height: 24px;
+    	line-height: 24px;
+    	font-size: 13px;
+	}
+	.sign-btm {
+    	padding: 15px;
+	}
+	.sign-btm>p {
+    	height: 30px;
+    	line-height: 30px;
+    	font-size: 15px;
+	}
+	.sign-btm-text {
+    	line-height: 22px;
+    	margin-top: 5px;
+    	margin-bottom: 20px;
+    	font-size: 13px;
+	}
+	.sign-btm-a {
+    	margin-bottom: 10px;
+    	font-size: 14px;
+	}
+	.sign-form-checkbox>div>label {
+    	height: 22px;
+    	line-height: 22px;
+    	font-size: 13px;
+	}
+	.sign-form-checkbox>div>input {
+    	width: 14px;
+   	 	height: 14px;
+    	margin-top: 4px;
+	}
+	.sign-form-checkbox>div>a{
+		font-size: 13px;
+	}
+	.sign-form .sign-submit {
+    	height: 40px;
+    	margin-top: 50px;
+    	font-size: 22px;
+    }
+/*WaitingLoan.html*/
+	.WaitingLoan-text{
+		width: 260px;
+		height: 260px;
+		margin-top: -130px;
+		margin-left: -130px;
+	}	
+	.WaitingLoan-text>h3 {
+    	height: 66px;
+    	line-height: 66px;
+    	margin-top: 30px;
+    	font-size: 20px;
+	}
+	.WaitingLoan-text>p {
+    	line-height: 20px;
+    	font-size: 12px;
+	}
+	.WaitingLoan-text>a {
+    	font-size: 16px;
+    	bottom: 30px;
+	}
+	.WaitingLoan-footer{
+		height: 46px;		
+	}
+	.WaitingLoan-footer>a{
+		height: 46px;
+    	line-height: 46px;
+    	font-size: 20px;
+	}
+}

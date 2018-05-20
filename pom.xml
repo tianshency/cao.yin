@@ -1,0 +1,176 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zml</groupId>
+  <artifactId>zhuminle</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>zml-project</name>
+  <description>助民乐平台</description>
+  <modules>
+  	<module>zml-base</module>
+  	<module>zml-jce</module>
+  	<module>zml-service</module>
+  	<module>zml-web</module>
+  	<module>zml-appweb</module>
+  	<!-- <module>zml-codegenerate</module> -->
+  	<module>zml-operate</module>
+  	<module>zml-loan</module>
+  </modules>
+  <!-- 设定主仓库，按设定顺序进行查找  -->
+  <repositories>
+	<repository>
+           <id>jeecg</id>
+           <name>jeecg Repository</name>
+           <url>http://maven.jeecg.org/nexus/content/repositories/jeecg</url>
+           <snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+       </repository>
+       <repository>
+           <id>jeecg-snapshots</id>
+           <name>jeecg-snapshots Repository</name>
+           <url>http://maven.jeecg.org/nexus/content/repositories/snapshots</url>
+           <snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+       </repository>
+	<repository>
+		<id>central</id>
+		<name>Central Repository</name>
+		<url>http://repo.maven.apache.org/maven2</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>sonatype-snapshots</id>
+		<name>sonatype-snapshots</name>
+		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+		<releases>
+			<enabled>false</enabled>
+		</releases>
+	</repository>
+	<repository>
+		<id>spy</id>
+		<name>Spy Repository</name>
+		<url>http://files.couchbase.com/maven2/</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>xerces</id>
+		<name>xerces</name>
+		<url>https://xerces.apache.org/xerces2-j/</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>proxool</id>
+		<name>proxool</name>
+		<url>http://proxool.cvs.sourceforge.net/viewvc/proxool/</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+  </repositories>
+  
+  <properties>
+  	<minidao.version>1.6-SNAPSHOT</minidao.version>
+
+	<guava.version>16.0.1</guava.version>
+	<!-- 主要依赖库的版本定义 -->
+	<spring.version>4.0.9.RELEASE</spring.version>
+
+	<!-- 工作流 -->
+	<activiti.version>5.11</activiti.version>
+	<mybatis.version>3.1.1</mybatis.version>
+
+	<!-- 辅助依赖包 -->
+	<cglib.version>2.2</cglib.version>
+	<aspectj.version>1.6.9</aspectj.version>
+	<jodd.version>3.3.7</jodd.version>
+	<javassist.version>3.15.0-GA</javassist.version>
+	<ant.version>1.6.5</ant.version>
+
+	<mybatis-spring.version>1.1.1</mybatis-spring.version>
+
+	<!-- 工具包 -->
+       <!-- json start -->
+	<jackson.version>1.8.4</jackson.version>
+       <jacksonframework.version>1.84</jacksonframework.version>
+	<json-lib.version>2.1</json-lib.version>
+	<fastjson-lib.version>1.2.6</fastjson-lib.version>
+	<gson.version>2.2.4</gson.version>
+       <!-- json start -->
+	<dom4j.version>1.6.1</dom4j.version>
+	<slf4j.version>1.6.1</slf4j.version>
+	<log4j.version>1.2.16</log4j.version>
+	<classmate.version>0.5.4</classmate.version>
+	<commons-beanutils.version>1.7.0</commons-beanutils.version>
+	<commons-collections.version>3.2.1</commons-collections.version>
+	<commons-chain.version>1.2</commons-chain.version>
+	<commons-codec.version>1.3</commons-codec.version>
+	<commons-digester.version>2.0</commons-digester.version>
+	<commons-io.version>1.3.2</commons-io.version>
+	<commons-fileupload.version>1.2.1</commons-fileupload.version>
+	<commons-lang.version>2.6</commons-lang.version>
+	<commons-lang3.version>3.1</commons-lang3.version>
+       <commons-email.version>1.2</commons-email.version>
+	<commons-logging.version>1.0.4</commons-logging.version>
+	<commons-logging-api.version>1.1</commons-logging-api.version>
+	<commons-validator.version>1.3.1</commons-validator.version>
+	<ehcache.version>2.4.3</ehcache.version>
+	<freemarker.version>2.3.19</freemarker.version>
+	<hibernate-validator.version>4.2.0.Final</hibernate-validator.version>
+	<poi.version>3.9</poi.version>
+	<antlr.version>3.3</antlr.version>
+	<openoffice.version>3.2.1</openoffice.version>
+       <jodconverter.version>3.0-beta-4</jodconverter.version>
+       <xwork-core.version>2.1.6</xwork-core.version>
+
+	<!-- 数据库组件包 _start -->
+	<proxool.version>0.9.1</proxool.version>
+	<commons-pool.version>1.6</commons-pool.version>
+	<commons-dbcp.version>1.4</commons-dbcp.version>
+	<druid.version>0.2.9</druid.version>
+       <mysql.version>5.1.27</mysql.version>
+       <!-- sqlserver2005 -->
+       <sqlserver.version>1.0.0</sqlserver.version>
+       <!-- oracle -->
+       <ojdbc14.version>10.2.0.5.0</ojdbc14.version>
+       <!-- jtds for mssql/db2 -->
+       <jtds.version>1.2.4</jtds.version>
+       <h2.version>1.3.170</h2.version>
+	<postgresql.version>9.1-903.jdbc4</postgresql.version>
+
+	<!-- 测试依赖包 -->
+	<junit.version>4.7</junit.version>
+       <hamcrest.version>1.3</hamcrest.version>
+
+	<CKFinder.version>2.4</CKFinder.version>
+       <!-- java生成缩略图 -->
+       <thumbnailator.version>0.4.6</thumbnailator.version>
+	<pinyin4j.version>2.5.0</pinyin4j.version>
+	<org.quartz.version>1.6.2</org.quartz.version>
+	<activation.version>1.1.1</activation.version>
+	<aopalliance.version>1.0</aopalliance.version>
+	<xstream.version>1.4.4</xstream.version>
+	<groovy.version>2.3.3</groovy.version>
+    <!--poi 工具类 -->
+    <easypoi.version>2.1.4</easypoi.version>
+	<cxf.version>3.0.2</cxf.version>
+	<!--maven插件变量-->
+	<tomcat.version>2.2</tomcat.version>
+	<jetty.version>7.6.14.v20131031</jetty.version>
+    <!-- hibernate -->
+  	<hibernate.version>4.1.0.Final</hibernate.version>
+  	<hibernate-common-annotations.version>4.0.2.Final</hibernate-common-annotations.version>
+	<hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
+	
+  </properties>
+</project>

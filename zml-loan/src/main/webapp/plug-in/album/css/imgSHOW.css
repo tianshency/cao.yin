@@ -1,0 +1,411 @@
+#container,
+#container2,
+#container3,
+#container4{
+	width: 100%;
+	background: #000;
+	height: 700px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1000;
+	}	
+  * {
+  	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
+    color: #333;	
+	}
+	select, input, textarea {
+		font-size: 1em;
+	}
+
+  body {
+    margin: 0;
+  }
+ 
+  ul {
+    /*list-style-image:url(../images/list-style.gif);*/
+  }
+  pre {
+    font-family: "Lucida Console", "Courier New", Verdana;
+    border: 1px solid #CCC;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  code {
+    font-family: "Lucida Console", "Courier New", Verdana;
+    margin: 0;
+    padding: 0;
+  }
+  #gallery,
+  #gallery2,
+  #gallery3,
+  #gallery4{
+    width: 60%;
+    height: 540px;
+    float: left;
+    margin-left: 2.5%;
+  }
+  .img-btn{
+  	width: 30%;
+  	height: 540px;
+  	float: left;
+  	background: #fff;
+  	margin-left: 5%;
+  	position: relative;
+  }
+  .container-main{
+  	height: 540px;
+  	width: 100%;
+  	position: absolute;
+  	top: 50%;
+  	margin-top: -270px;
+  }
+.close-img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/close1.png) no-repeat;
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	cursor: pointer;
+}
+.close-img:hover{
+	background: url(../images/close2.png) no-repeat;
+}
+.examine-result,
+.examine-opinion{
+	padding: 20px 20px 0 20px;
+}
+.examine-result>h2,
+.examine-opinion>h2{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+.examine-result>div{
+	height: 36px;
+	padding-left: 20px;
+}
+.examine-result>div>label{
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	width: 100px;
+	cursor: pointer;
+}
+.examine-result>div>label:hover{
+	color: #f00;
+	font-weight: bold;
+}
+.examine-result>div>input{
+	width: 16px;
+	height: 16px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.examine-opinion>textarea{
+	width: 90%;
+	height:100px;
+	font-size: 14px;
+	padding: 2%;
+}
+.examine-opinion-submit{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+.examine-opinion-submit>input{
+	width: 100px;
+	height: 30px;
+	background: #59A7E3;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.examine-opinion-submit>input:hover{
+	background: #2e6996;
+}
+.examine-classify{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 100000;
+	background: #fff;
+	
+}
+.examine-classify>ul{
+	overflow: hidden;
+	padding: 30px 0 30px 30px;
+	margin: 0;
+}
+.examine-classify li{
+	width: 20%;
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	height: 250px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.examine-classify li>p{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	background: rgba(181, 87, 85, 0.98);
+	color: #edebd2;
+	margin-top: 10px;
+	/*transition:width 1.5s;
+	-moz-transition:opacity 1.5s;
+	-webkit-transition:opacity 1.5s; 
+	-o-transition:opacity 1.5s; */
+}
+.examine-classify li>p:hover{
+	opacity: 1;	
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1; 	
+}
+.examine-classify li>div{
+	height: 200px;
+}
+.examine-classify li img{
+	height: 100%;
+	width: 100%;
+	
+}
+/*新增-表单*/
+li{
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.examine-choose>li{
+	height: 32px;
+}
+.examine-choose>li>span{
+	width: 87px;
+    padding-right: 2px;
+	line-height: 32px;
+	height: 32px;
+	text-align: right;
+	display: inline-block;
+	float: left;
+}
+.examine-choose>li>select,
+.examine-choose>li>input,
+.examine-choose>li>textarea{
+	width: 60%;
+	border: 1px solid #aaa;
+	padding: 0;
+}
+.examine-choose>li>select{
+	padding-left: 2px;
+}
+.examine-choose>li>textarea{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+
+form .close-img,
+form .close-img:hover{
+	width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+form .img-btn{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+form .examine-opinion-submit>button{
+	border: none;
+	padding: 0;
+	background: #59A7E3;
+    color: #fff;
+    font-size: 14px;
+    width: 100px;
+    height: 32px;
+}
+form .examine-opinion-submit>button:hover{
+	background: #0e6eb7;
+}
+@media only screen and (max-width:1200px ) {
+	form .container-main,
+	form .img-btn,
+	form #gallery, 
+	form #gallery2, 
+	form #gallery3, 
+	form #gallery4{
+		height: 440px;
+	}
+	form .ad-gallery .ad-image-wrapper{
+		height: 324px;
+		margin-bottom:24px;
+	}
+	form .ad-gallery .ad-controls{
+		height: 32px;
+		line-height: 32px;
+	}
+	form .ad-thumbs>.ad-thumb-list{
+		width: 100%!important;
+		height: 60px;
+	}
+	form .ad-thumb-list>li>a{
+		border: 3px solid #ccc;
+	}
+	form .ad-gallery .ad-thumbs li a img,
+	form .ad-gallery .ad-thumbs li a.ad-active img{
+		border: none;
+		width: auto;
+		height: 54px;
+	}
+	#gallery .ad-forward, .ad-gallery .ad-back{
+		height: 60px;
+	}
+	form .examine-result{
+		padding: 15px 15px 0 15px;
+	}
+	form .examine-opinion{
+		padding: 15px;
+	}
+	form .examine-choose>li{
+		font-size: 14px;
+	}
+	form .examine-choose>li>span {
+    	width: 80px;
+    	line-height: 24px;
+    	height: 24px;
+    }
+    form .examine-result>h2, form .examine-opinion>h2{
+    	font-size: 14px;
+    	height: 32px;
+    	line-height: 32px;
+    }
+	form .examine-result>div>label{
+		height: 30px;
+		line-height: 30px;
+	}
+	form .examine-result>div>input{
+		width: 14px;
+		height: 14px;
+		margin-top: 8px;
+	}
+	form .examine-result>div{
+		height: 30px;
+	}
+	form .examine-opinion>textarea{
+		height: 60px;
+		font-size: 13px;
+	}
+	form .examine-opinion-submit{
+		margin-top: 5px;
+	}
+	form .examine-opinion-submit>button{
+		width: 90px;
+		height: 26px;
+	}
+	
+}
+@media only screen and (max-width:900px) {
+	form .container-main,
+	form .img-btn,
+	form #gallery, 
+	form #gallery2, 
+	form #gallery3, 
+	form #gallery4{
+		height: 346px;
+	}
+	form .ad-gallery .ad-image-wrapper{
+		height: 240px;
+		margin-bottom:20px;
+	}
+	form .ad-gallery .ad-controls{
+		height: 26px;
+		line-height: 26px;
+		font-size: 14px;
+	}	
+	form .examine-result{
+    	padding: 10px 10px 0 10px;
+	}
+	form .examine-opinion {
+    	padding: 10px;
+	}
+	form .examine-choose>li {
+    	font-size: 12px;
+	}
+	form .examine-choose>li>span {
+    	width: 70px;
+    	line-height: 20px;
+    	height: 20px;
+	}
+	.examine-choose>li{
+		height: 27px;
+	}
+	.examine-choose>li>textarea{
+		font-size: 12px;
+		line-height: 14px;
+		height: 44px;
+	}
+	form .examine-choose>li:last-child{
+		height: 46px;
+	}	
+	form .examine-result>h2, form .examine-opinion>h2 {
+    	font-size: 13px;
+   	 	height: 24px;
+    	line-height: 24px;
+	}
+	form .examine-result>div {
+    	height: 20px;
+	}
+	form .examine-result>div>label {
+    	height: 20px;
+    	line-height: 20px;
+    	font-size: 12px;
+	}
+	form .examine-result>div>input{
+		width: 12px;
+		height: 12px;
+	}
+	form .examine-opinion>textarea {
+    	height: 34px;
+    	font-size: 12px;
+    	padding: 1%;
+	}
+	form .examine-opinion-submit {
+    	margin-top: 0;
+	}
+	form .examine-opinion-submit>button {
+    	width: 70px;
+    	height: 20px;
+    	font-size: 12px;
+	}
+	
+	
+	
+}
+

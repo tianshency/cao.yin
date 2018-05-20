@@ -1,0 +1,102 @@
+.container{
+	background: #fff;
+	margin-bottom: 50px;
+}
+.main-titile{
+	padding: 15px;
+	overflow: hidden;
+}
+
+.main-titile .title{
+	width: 100%;
+	height: 30px;
+	text-align: -webkit-center;
+}
+.main-titile .body{
+	width: 100%;
+	height: 30px;
+}
+
+.main-titile .body span:first-child{
+	display: -webkit-inline-box;
+	width: 50%;
+	float: left;
+	height: 100%;
+	font-size: 12px;
+	color: #575758;
+}
+.main-titile .body span:nth-child(2){
+	display: -webkit-inline-box;
+	width: 50%;
+	float: left;
+	height: 100%;
+	font-size: 12px;
+	color: #575758;
+	text-align: -webkit-right
+}
+
+.main-content{
+	padding: 15px;
+	overflow: hidden;
+}
+
+
+/* 发布显示列表页 */
+
+.release_title{
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+.release_title .release_header{
+	float: left;
+	display: -webkit-inline-box;
+	width: 66%;
+}
+.release_title .release_time{
+	float: left;
+	display: -webkit-inline-box;
+	width: 34%;
+    text-align: -webkit-right;
+    font-size: 14px;
+    color: #8f8f94;
+}
+
+
+.release_body{
+	font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8f8f94;
+}
+.release_body .release_person{
+	display: -webkit-box;
+	width: 50%;
+	float: left;
+}
+.release_body .release_type{
+	display: -webkit-box;
+	width: 50%;
+	float: left;
+	text-align: -webkit-right;
+}
+
+
+
+.btn_opt_div{
+	margin: 10px;
+    border-top: 1px dotted #f0ad4e;
+    width: 100%;
+    text-align: -webkit-right;
+}
+
+.mui-btn-danger {
+	margin-top: 15px;
+    height: 30px;
+    width: 40%;
+}
+.mui-btn-green {
+	margin-top: 15px;
+    height: 30px;
+    width: 40%;
+}

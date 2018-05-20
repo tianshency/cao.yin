@@ -1,0 +1,228 @@
+html{
+	height:100%;
+	margin:0;
+}
+body{
+    background: #e8e8e8;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin: 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+	min-height: 400px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+
+.container {
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tab-content{
+	height: 100%;
+}
+#open{
+	height: 100%;
+}
+
+.content_main{
+	height: 41%;
+}
+.main_detail{
+	width: 100%;
+	height: 60%;
+}
+
+.form-horizontal .form-group{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.form-group{
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-bottom: 1px;
+	background: #FFFFFF;
+	overflow-y: auto;
+}
+
+.form-group .control-label{
+	/*width: 25%;
+	height: 20%;
+	float: left;
+	text-align: -webkit-right;
+	line-height: 470%;*/
+    float: left;
+    text-align: -webkit-right;
+    padding: 10px 5px;
+}
+
+.form-group .col-sm-4{
+	/*width: 73%;
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;*/
+  	width: 69%;
+    float: right;
+    /* margin-right: 5px; */
+    /* margin-top: 15px; */
+    padding: 6px 2px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 2px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.main_detail .form-group:nth-child(3) input{
+	display: block;
+	width: 60%;
+	float: left;
+}
+.text-muted {
+    color: #e80f0f;
+}
+
+.show_advice{
+	margin-top: 0%;
+}
+
+.show_advice .form-group{
+	margin-bottom: 2px;
+	height: 10%;
+	background: #e8e8e8;
+	font-size: 16px;
+}
+
+.show_advice .form-group a{
+	color: #f71306;
+}
+
+.btn_div{
+	width:100%;
+	text-align: -webkit-center;
+	height: 100px;
+}
+
+.btn_div button{
+	border: solid 1px;
+    border-color: #0088cc;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #109aef), color-stop(1, #b7d4ec));
+    border-radius: 3px;
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+    color: #f70671;
+}
+
+.btn_other{
+	width:100%;
+	text-align: -webkit-right;
+}
+
+.btn_other button{
+	border: solid 1px;
+    border-color: #0088cc;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #109aef), color-stop(1, #b7d4ec));
+    border-radius: 3px;
+    width: 25%;
+    height: 35px;
+    margin: 5px 9px;
+    color: #f70671;
+}
+
+.formclass{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #737373;
+	font-size: 12px;
+}
+
+.fileclass{
+	opacity:0;
+    filter:alpha(opacity=0);
+    height: 95px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.fileimg{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.col-sm-2{
+	width: 50%;
+	float: left;
+}
+
+.form-group_hk {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background: #FFFFFF;
+    overflow-y: auto;
+}
+
+.hk_upload {
+	margin-bottom: 1px;	
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    line-height: 0px; 
+    width: 100%;
+    height: 34px;
+    margin-bottom: 0px;
+   	padding: 0px 0px;
+    -webkit-user-select: text;
+    border: 0px solid rgba(0,0,0,.2);
+    border-radius: 0px; 
+}
+.mui-segmented-control .mui-control-item {
+    background: #fff;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+   	background: #fff;
+}
+
+caption {
+    color: #333;
+    background: #007aff;
+}
+.WaitingLoan-footer {
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    text-align: -webkit-center;
+    background: rgb(62, 111, 204);
+    line-height: 35px;
+    color: red;
+}

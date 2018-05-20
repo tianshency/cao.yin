@@ -1,0 +1,103 @@
+@media only screen and (max-width:380px ) {
+	.home-nav{
+		padding-top: 12px;
+	}
+	.home-nav>a>img {
+    	width: 40px;
+    	height: 40px;
+	}
+	.home-nav>a>span{
+	    height: 40px;
+    	line-height: 40px;
+    	font-size: 14px;	
+	}
+	.home-headlines>b,
+	.headlines-text,
+	.headlines-text a,
+	.headlines-btn>b,
+	.headlines-btn>a,
+	.headlines-btn{
+		height: 30px;
+    	line-height: 30px;
+    	font-size: 13px;
+	}
+	.headlines-text ul{
+		height: 30px;
+	}
+	.home-partner{
+		margin-top: 9px;
+		padding-bottom: 10px;
+	}
+	.home-partner-title{
+		height: 32px;
+	}
+	.home-partner-title>h2,
+	.home-partner-title>a{
+		font-size: 14px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.home-partner-title>a{
+		font-size: 13px;
+	}
+	.home-list{
+		margin-top: 9px;
+	    margin-bottom: 53px;
+	}
+	.home-list>.home-partner-title>i{
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		width: 16px;
+		height: 16px;
+		margin-top: 8px;
+	}
+
+	.home-list-text{
+		left: 110px;
+	}
+	.home-list-text>p{
+		font-size: 14px;
+		padding: 10px 0;
+		height: 53px;
+		padding-right: 10px;
+	}
+	.home-list-price{
+		font-size: 13px;
+		margin-top: 4px;
+		margin-bottom: 6px;
+	}
+	.home-list-price>span {
+    	font-size: 18px;
+	}
+	.home-list-time {
+    	font-size: 12px;
+	}
+	.home-list-time>p{
+		margin-left: 10px;
+		margin-top: 2px;
+	}
+	#commodityParent li .home-list-text>.home-list-time>p{
+	    font-size: 13px;
+	    height: 34px;
+	    padding: 0;
+	}
+	#shopTime {
+    	margin-right: 8px;
+	}
+	#home-bar i{
+		width: 17px;
+		height: 20px;
+		margin-bottom: 0;
+	}
+	#home-bar .mui-tab-label{
+		font-size: 12px;
+	}
+	#home-bar .mui-tab-item,
+	#home-bar{
+    	height: 44px;
+	}
+
+	
+	
+	
+}
